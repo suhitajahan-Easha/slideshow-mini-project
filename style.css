@@ -1,0 +1,26 @@
+.slideshow-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: blue;
+
+}
+.slide-elements{
+    position: relative;
+
+}
+.slide-element{
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%,-50%) scale(0);
+
+
+}
+.slide-element i,h2{
+    font-size: 10rem;
+    color: aliceblue;
+}
+.slide-element.current{
+    transform: translate(-50%,-50%) scale(1);;
+}
