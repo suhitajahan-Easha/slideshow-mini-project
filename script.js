@@ -8,6 +8,7 @@ setInterval(() => {
 
  if(count>slide.length){
 
+   count=1;
     slide[0].classList.add("current")
      
  } 
